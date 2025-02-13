@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>виселица.ss</title>
+    <link rel="stylesheet" href="vis-styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="data">
+            <button id="knopochka" class="dataBut">#####</button>
+            <div id="count" class="dataBut"></div>
+            <button id="restart" class="dataBut">restart</button>
+        </div>
+
+        <div class="visylka" id="mainWord"></div>
+
+        <form class="inText" method="post" id="charForm">
+            <label for="charInput">Введите букву:</label>
+            <input type="text" name="charInput" id="charInput" maxlength="1">
+            <input type="submit" id="charBut"></input>
+        </form>
+
+        <form class="inText" method="post" id="resForm">
+            <label for="wordResInput">Введите слово:</label>
+            <input type="text" name="wordResInput" id="wordResInput">
+            <input type="submit" id="resBut"></input>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="vis-scripts.js"></script>
+</body>
+</html>
