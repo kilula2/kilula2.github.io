@@ -23,15 +23,17 @@
         <div class="visylka" id="mainWord"></div>
 
         <form class="inText" method="post" id="charForm">
-            <label for="charInput">Введите букву:</label>
-            <input type="text" name="charInput" id="charInput" maxlength="1">
-            <input type="submit" id="charBut"></input>
+            <label for="charInput" id="labelForCharInput">Введите букву:</label>
+            <input type="text" name="charInput" class="inputJopa" id="charInput" maxlength="1">
+            <input type="submit" id="charBut" class="butWord" value=""></input>
+            <br>
+            <span id="loser"></span>
         </form>
 
         <form class="inText" method="post" id="resForm">
             <label for="wordResInput">Введите слово:</label>
-            <input type="text" name="wordResInput" id="wordResInput">
-            <input type="submit" id="resBut"></input>
+            <input type="text" name="wordResInput" class="inputJopa" id="wordResInput">
+            <input type="submit" id="resBut" class="butWord" value=""></input>
         </form>
     </div>
 
